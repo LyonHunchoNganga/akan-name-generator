@@ -9,22 +9,35 @@
 <body>
   <div class="container">
     <h1>Akan Name Generator</h1>
-    <p>Enter your birthdate and select your gender to find your Akan name.</p>
+    <p>Welcome to Akan Name Generator please step into the vibrant culture of Ghana and discover the Akan name you were born to have!
+      🌍 Based on your birthdate and gender, this magical generator unveils the powerful name tied to the day you were born.
+      
+      🎉 Whether youre curious, exploring your roots, or just having fun your identity awaits.
+      
+      🔎 Find your Akan name now and wear it with pride</p>
     <form id="akanForm">
-      <label for="birthdate">Birthdate:</label>
+      <label class="birthdate" for="birthdate">Birthdate:</label>
       <input type="date" id="birthdate" required />
 
-      <label>Gender:</label>
+      <label class="gender">Gender:</label>
       <div class="gender-options">
-        <label><input type="radio" name="gender" value="male" required /> Male</label>
-        <label><input type="radio" name="gender" value="female" required /> Female</label>
+        <label class="male"><input type="radio" name="gender" value="male" required /> Male</label>
+        <label class="female"><input type="radio" name="gender" value="female" required /> Female</label>
       </div>
 
       <button type="submit">Get Akan Name</button>
-    </form>
+      <button type="reset">Reset</button>
 
     <div id="result"></div>
+    <footer class="footer">
+      <div>
+        <p>contact me +254-111408499
+          </p>
+        <p>© 2025 Lyon Nganga. All rights reserved.</p>
+      </div>
+    </footer>
   </div>
+  
 
   <script src="./src/script.js"></script>
 </body>
