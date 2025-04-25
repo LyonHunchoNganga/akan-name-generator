@@ -44,5 +44,5 @@ This project is licensed under the MIT License.
 
 ## 📧 Contact  
 For any inquiries or feedback, feel free to reach out:  
-- **Email**: lyon.nganga@example.com   
+- **Email**: lyon.nganga1@gmail.com
 
